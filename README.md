@@ -44,7 +44,7 @@ The file that was opened on this host was edit1-invoice.docm. Upon looking at th
 ### INVESTIGATE Traffic Logs around IP 172.16.17.198
 
 <b><h4>8:41</h4></b>
-A document named edit-invoice.docm.zip was downloaded by the host. This document must contain a malicious macro as we will see later in the timeline of events. This happens commonly through attachments downloaded through fishing emails.
+A document named ***edit-invoice.docm.zip*** was downloaded by the host. This document must contain a malicious macro as we will see later in the timeline of events. This happens commonly through attachments downloaded through fishing emails.
 
 <img width="1422" height="810" alt="Invoice file created" src="https://github.com/user-attachments/assets/a536080a-51a5-40b3-ad7c-735e00e9865b" />
 
