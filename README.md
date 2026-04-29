@@ -77,8 +77,3 @@ We see that the host makes another GET request to HTTP[:]//WWW[.]GREYHATHACKER[.
 # CONCLUSION 
 Although the last log entry shows that the resource it was trying to download could not be found, it is clear that this workstation is compromised and it is making requests to a website which will likely implant persistence mechanisms and elevate privleges. 
 
-
-
-
-
-## Conclusion
