@@ -68,7 +68,7 @@ As seen by Sysmon EventID 22, the host used Powershell to run a DNS query of the
 <hr>
 
 <b><h4>8:42</h4></b>
-We see that the host makes another GET request to HTTP://WWW[.]GREYHATHACKER[.]NET/TOOLS/MESSBOX[.]EXE with an HTTP response code of 404 which means it could not find that file. 
+We see that the host makes another GET request to HTTP[:]//WWW[.]GREYHATHACKER[.]NET/TOOLS/MESSBOX[.]EXE with an HTTP response code of 404 which means it could not find that file. 
 
 <img width="1456" height="619" alt="Could not find" src="https://github.com/user-attachments/assets/0cdd37e6-e1c9-4979-8d0d-d48958de3c13" />
 
